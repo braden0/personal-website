@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading...</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Cutive+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <header>
+            <div class="prompt">~ user@braden:~$</div>
+            <h1>Hey, I'm Braden!</h1>
+            <p>19 y/o aspiring cybersecurity professional / dev 💻</p>
+            <br>
+            <nav>
+                <center>
+                <a href="#about">about</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">contact</a>
+                <a href="https://github.com/braden0" target="_blank">github</a>
+                </center>
+            </nav>
+        </header>
+
+        <section id="about">
+            <div class="prompt">> about_me.txt --verbose</div>
+            <p>Name: Braden McCaig <br>
+                Education: Junior at Wichita State University - BS in Cybersecurity & Minor in CS<br> 
+                Work: I'm currently interning at <a href="https://txtav.com/" target="_blank">Textron Aviation</a> through <a href="https://www.wichita.edu/industry_and_defense/ennovar/index.php" target="_blank">Ennovar</a> <br>
+                Job Title: SAP Security Analyst
+            </p>
+            <div class="executable">
+                <center>
+                        <!-- Trigger/Open The Modal -->
+                        <button class=executable-btn id="myBtn">> nano extra_info.txt</button>
+                        
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                             
+                            <div class="nano-ui">
+                                <!-- <span class="close">&times;</span> -->
+
+                                <div class="nano-header">
+                                    GNU nano 7.2 <span class="nano-center">extra_info.txt</span>
+                                </div>
+
+                                <div class="nano-body">
+                                    <span class="cursor">_</span>
+                                    I've been exploring technology and managing online projects since I was young, but it wasn’t until a year or so ago that I began diving into cybersecurity. 
+                                    It took time to find the right path, but once I did, I knew I had found my passion. 
+                                    By the time I complete my education, I aim to secure a meaningful role in cybersecurity. Something I see not just as a career, but as a lifelong pursuit. 
+                                    I enjoy protecting systems, uncovering vulnerabilities, and feel deeply fulfilled when I can help keep others safe online.
+                                    <!--<ul>
+                                        <li>More about me:<br>
+                                            I'm a Cybersecurity enthusiast driven by curiousity, critical thinking, and a passion for security.
+                                            Through coursework, capture the flag competitions, and platforms like TryHackMe, I've been building a strong foundation in threat analysis and secure system designs. 
+                                            Every new vulnerability I learn about pushes me to think more critically and dig deeper.
+                                            I'm excited to keep growing my skills, earn certifications, and apply what I have learned to real world problems that matter.
+                                        </li>
+
+                                        <li>Skills:<br>
+                                            <ul>
+                                                <li>
+                                                    Tools & Tech: Wireshark, Nmap, Burp Suite, Autopsy, Hashcat, Nmap, Kali/Arch Linux
+                                                </li>
+                                                <li>
+                                                    Certifications: TestOut Client Pro, TestOut Hybrid Server Pro: Advanced, TestOut Network Pro, TestOut PC Pro, TestOut Server Pro 2016: Networking
+                                                </li>
+                                                <li>
+                                                    Soft Skills: Analytical, attention to detail, continious learner, teamwork, listener
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+
+                                        <li>Fun facts:<br> <ul>
+                                                <li>
+                                                    My favorite CTF categories are password cracking and log analysis 
+                                                </li>
+                                                <li>
+                                                    My favorite podcasts are Darknet Diaries, Past Gas by Donut Media, and The Yard. 
+                                                </li>     
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    -->
+                                </div>
+
+                                <div class="nano-footer">
+                                    <div class="cmd-group">
+                                        <span class="cmd-pair"><span class="letter">^G</span> Help</span>
+                                        <span class="cmd-pair"><span class="letter">^O</span> Write Out</span>
+                                        <span class="cmd-pair"><span class="letter">^X</span> Exit</span>
+                                        <span class="cmd-pair"><span class="letter">^R</span> Read File</span>
+                                        <span class="cmd-pair"><span class="letter">^W</span> Where Is</span>
+                                        <span class="cmd-pair"><span class="letter">^K</span> Cut</span>
+                                        <span class="cmd-pair"><span class="letter">^U</span> Uncut</span>
+                                    </div>
+                                </div>
+                        </div> 
+                </center>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="prompt">> skills.txt</div>
+            <ul>
+                <li>Red Team</li>
+            </ul>
+            <div class="scroller">
+                <div class="scroller-inner">
+                    <a href="https://portswigger.net/burp" target="_blank">
+                        <img class="skill-image" src="images/burp.png">
+                        <span class="skill-text">Burp Suite</span>
+                    </a>
+                    <a href="https://nmap.org/" target="_blank">
+                        <img class="skill-image" src="images/nmap.png">
+                        <span class="skill-text">Nmap</span>
+                    </a>
+                    <a href="https://www.wireshark.org/download.html" target="_blank">
+                        <img class="skill-image" src="images/wireshark.png">
+                        <span class="skill-text">Wireshark</span>
+                    </a>
+                    <a href="https://www.autopsy.com/" target="_blank">
+                        <img class="skill-image" src="images/autopsy.jpg">
+                        <span class="skill-text">Autopsy</span>
+                    </a>
+                    <a href="https://hashcat.net/hashcat/" target="_blank">
+                        <img class="skill-image" src="images/hashcat.png">
+                        <span class="skill-text">Hashcat</span>
+                    </a>
+                    <a href="https://tryhackme.com/" target="_blank">
+                        <img class="skill-image" src="images/tryhackme.jpg">
+                        <span class="skill-text">TryHackMe</span>
+                    </a>
+                    <a href="https://www.zaproxy.org/" target="_blank">
+                        <img class="skill-image" src="images/owaspzap.jpg">
+                        <span class="skill-text">OWASP Zap</span>
+                    </a>
+                    <a href="https://cyberskyline.com/events/ncl" target="_blank">
+                        <img class="skill-image" src="images/ncl.png">
+                        <span class="skill-text">NCL</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="prompt">> ls ~/projects</div>
+            <ul>
+            <li>This website! *more info on this project and others coming soon!*</li>
+            <!--<li>dotfiles — My full custom terminal setup *more info coming soon*</li>-->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <div class="prompt">> ls ~/contact_methods</div>
+            <!--<p>Email: <a href="mailto:idk">idk@gmail.com</a></p>-->
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/bradenmccaig/" target="_blank">/bradenmccaig</a></p>
+        </section>
+
+        <footer class="footer">
+        </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="title.js"></script>
+  <script src="scroll.js"></script>
+
+</body>
+</html>
